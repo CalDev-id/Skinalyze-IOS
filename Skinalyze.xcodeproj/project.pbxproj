@@ -11,6 +11,7 @@
 		2E718EFF2CA16313001E53EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E718EFE2CA16313001E53EB /* ContentView.swift */; };
 		2E718F012CA16315001E53EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E718F002CA16315001E53EB /* Assets.xcassets */; };
 		2E718F042CA16315001E53EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E718F032CA16315001E53EB /* Preview Assets.xcassets */; };
+		2E8A76622CB61C510052E9FD /* OnboardingChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8A76612CB61C510052E9FD /* OnboardingChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2E718EFE2CA16313001E53EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E718F002CA16315001E53EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E718F032CA16315001E53EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E8A76612CB61C510052E9FD /* OnboardingChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,10 @@
 			children = (
 				2E718EFC2CA16313001E53EB /* SkinalyzeApp.swift */,
 				2E718EFE2CA16313001E53EB /* ContentView.swift */,
+				2E8A765E2CB61C1F0052E9FD /* Services */,
+				2E8A765D2CB61C160052E9FD /* ViewModels */,
+				2E8A765C2CB61C100052E9FD /* Models */,
+				2E8A765B2CB61C070052E9FD /* Views */,
 				2E718F002CA16315001E53EB /* Assets.xcassets */,
 				2E718F022CA16315001E53EB /* Preview Content */,
 			);
@@ -65,6 +71,43 @@
 				2E718F032CA16315001E53EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E8A765B2CB61C070052E9FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E8A76602CB61C380052E9FD /* OnboardingChat */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E8A765C2CB61C100052E9FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E8A765D2CB61C160052E9FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2E8A765E2CB61C1F0052E9FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2E8A76602CB61C380052E9FD /* OnboardingChat */ = {
+			isa = PBXGroup;
+			children = (
+				2E8A76612CB61C510052E9FD /* OnboardingChatView.swift */,
+			);
+			path = OnboardingChat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E718EFF2CA16313001E53EB /* ContentView.swift in Sources */,
+				2E8A76622CB61C510052E9FD /* OnboardingChatView.swift in Sources */,
 				2E718EFD2CA16313001E53EB /* SkinalyzeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
