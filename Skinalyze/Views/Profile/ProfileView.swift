@@ -1,9 +1,4 @@
-//
-//  ProfileView.swift
-//  Skinalyze
-//
-//  Created by Heical Chandra on 14/10/24.
-//
+
 
 import SwiftUI
 
