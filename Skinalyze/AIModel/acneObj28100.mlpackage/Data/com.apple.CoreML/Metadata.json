@@ -1,0 +1,13 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "--",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.app.tag" : "150",
+    "com.apple.createml.version" : "15.1.0",
+    "com.apple.coreml.model.preview.type" : "objectDetector",
+    "iterations" : "28100",
+    "com.apple.createml.app.version" : "6.0 Beta"
+  },
+  "MLModelAuthorKey" : "Ali Haidar",
+  "MLModelLicenseKey" : "--"
+}

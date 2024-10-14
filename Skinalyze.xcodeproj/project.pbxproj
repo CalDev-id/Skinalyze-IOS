@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033BDD862CBCCA1700BBE35B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BDD852CBCCA1700BBE35B /* MainView.swift */; };
+		033BDD8B2CBCCACD00BBE35B /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BDD8A2CBCCACD00BBE35B /* LogView.swift */; };
+		033BDD8E2CBCCADD00BBE35B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BDD8D2CBCCADD00BBE35B /* ProfileView.swift */; };
+		033BDD922CBCD7B900BBE35B /* AcneSeverityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BDD912CBCD7B900BBE35B /* AcneSeverityLevel.swift */; };
+		033BDD942CBCD7E800BBE35B /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BDD932CBCD7E800BBE35B /* ResultModel.swift */; };
+		033BDD962CBCDB7000BBE35B /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BDD952CBCDB7000BBE35B /* ResultViewModel.swift */; };
+		033BDDCF2CBCDEA100BBE35B /* ImageBase64Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BDDCE2CBCDEA100BBE35B /* ImageBase64Converter.swift */; };
+		033DA85E2CB6845B007BEA53 /* acneObj28200.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 033DA85D2CB6845B007BEA53 /* acneObj28200.mlmodel */; };
+		033DA86E2CB91097007BEA53 /* SeverityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033DA86D2CB91097007BEA53 /* SeverityIndicator.swift */; };
+		03C7D70B2CB6697D00944A26 /* FaceTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7D70A2CB6697D00944A26 /* FaceTrackingViewModel.swift */; };
+		03C7D70E2CB66A1900944A26 /* CameraScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7D70D2CB66A1900944A26 /* CameraScanView.swift */; };
+		03C7D7102CB66A7300944A26 /* CapturedImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7D70F2CB66A7300944A26 /* CapturedImagesView.swift */; };
+		03C7D7122CB66A9300944A26 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7D7112CB66A9300944A26 /* ResultView.swift */; };
+		03C7D7142CB66AA900944A26 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7D7132CB66AA900944A26 /* CardStackView.swift */; };
+		03C7D7192CB66AD300944A26 /* acneObj15000.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03C7D7162CB66AD300944A26 /* acneObj15000.mlmodel */; };
+		03C7D71A2CB66AD300944A26 /* acneObj7480.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03C7D7152CB66AD300944A26 /* acneObj7480.mlmodel */; };
+		03C7D71B2CB66AD300944A26 /* acneObj28100.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 03C7D7172CB66AD300944A26 /* acneObj28100.mlpackage */; };
 		2E718EFD2CA16313001E53EB /* SkinalyzeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E718EFC2CA16313001E53EB /* SkinalyzeApp.swift */; };
 		2E718EFF2CA16313001E53EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E718EFE2CA16313001E53EB /* ContentView.swift */; };
 		2E718F012CA16315001E53EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E718F002CA16315001E53EB /* Assets.xcassets */; };
@@ -15,6 +32,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033BDD852CBCCA1700BBE35B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		033BDD8A2CBCCACD00BBE35B /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		033BDD8D2CBCCADD00BBE35B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		033BDD912CBCD7B900BBE35B /* AcneSeverityLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcneSeverityLevel.swift; sourceTree = "<group>"; };
+		033BDD932CBCD7E800BBE35B /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		033BDD952CBCDB7000BBE35B /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		033BDDCE2CBCDEA100BBE35B /* ImageBase64Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBase64Converter.swift; sourceTree = "<group>"; };
+		033DA85D2CB6845B007BEA53 /* acneObj28200.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = acneObj28200.mlmodel; sourceTree = "<group>"; };
+		033DA86D2CB91097007BEA53 /* SeverityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeverityIndicator.swift; sourceTree = "<group>"; };
+		03C7D70A2CB6697D00944A26 /* FaceTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingViewModel.swift; sourceTree = "<group>"; };
+		03C7D70D2CB66A1900944A26 /* CameraScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanView.swift; sourceTree = "<group>"; };
+		03C7D70F2CB66A7300944A26 /* CapturedImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturedImagesView.swift; sourceTree = "<group>"; };
+		03C7D7112CB66A9300944A26 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		03C7D7132CB66AA900944A26 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		03C7D7152CB66AD300944A26 /* acneObj7480.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = acneObj7480.mlmodel; sourceTree = "<group>"; };
+		03C7D7162CB66AD300944A26 /* acneObj15000.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = acneObj15000.mlmodel; sourceTree = "<group>"; };
+		03C7D7172CB66AD300944A26 /* acneObj28100.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = acneObj28100.mlpackage; sourceTree = "<group>"; };
 		2E718EF92CA16313001E53EB /* Skinalyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skinalyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E718EFC2CA16313001E53EB /* SkinalyzeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinalyzeApp.swift; sourceTree = "<group>"; };
 		2E718EFE2CA16313001E53EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +68,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033BDD842CBCCA0A00BBE35B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				033BDD852CBCCA1700BBE35B /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		033BDD892CBCCAC400BBE35B /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				033BDD8A2CBCCACD00BBE35B /* LogView.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		033BDD8C2CBCCAD400BBE35B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				033BDD8D2CBCCADD00BBE35B /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		033BDD8F2CBCD20400BBE35B /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				03C7D7112CB66A9300944A26 /* ResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		033BDD902CBCD7B000BBE35B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				033BDD912CBCD7B900BBE35B /* AcneSeverityLevel.swift */,
+				033BDD932CBCD7E800BBE35B /* ResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		033BDDCD2CBCDE9B00BBE35B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				033BDDCE2CBCDEA100BBE35B /* ImageBase64Converter.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		033DA86C2CB91083007BEA53 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				033DA86D2CB91097007BEA53 /* SeverityIndicator.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		03C7D7092CB6693300944A26 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				03C7D70A2CB6697D00944A26 /* FaceTrackingViewModel.swift */,
+				033BDD952CBCDB7000BBE35B /* ResultViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		03C7D70C2CB669FE00944A26 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				03C7D7132CB66AA900944A26 /* CardStackView.swift */,
+				03C7D70F2CB66A7300944A26 /* CapturedImagesView.swift */,
+				03C7D70D2CB66A1900944A26 /* CameraScanView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		03C7D7182CB66AD300944A26 /* AIModel */ = {
+			isa = PBXGroup;
+			children = (
+				03C7D7152CB66AD300944A26 /* acneObj7480.mlmodel */,
+				03C7D7162CB66AD300944A26 /* acneObj15000.mlmodel */,
+				03C7D7172CB66AD300944A26 /* acneObj28100.mlpackage */,
+				033DA85D2CB6845B007BEA53 /* acneObj28200.mlmodel */,
+			);
+			path = AIModel;
+			sourceTree = "<group>";
+		};
 		2E718EF02CA16313001E53EB = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +174,12 @@
 		2E718EFB2CA16313001E53EB /* Skinalyze */ = {
 			isa = PBXGroup;
 			children = (
+				033BDDCD2CBCDE9B00BBE35B /* Tools */,
+				033BDD902CBCD7B000BBE35B /* Model */,
+				03C7D7182CB66AD300944A26 /* AIModel */,
+				03C7D7092CB6693300944A26 /* ViewModels */,
 				2E718EFC2CA16313001E53EB /* SkinalyzeApp.swift */,
 				2E718EFE2CA16313001E53EB /* ContentView.swift */,
-				2E8A765E2CB61C1F0052E9FD /* Services */,
-				2E8A765D2CB61C160052E9FD /* ViewModels */,
-				2E8A765C2CB61C100052E9FD /* Models */,
 				2E8A765B2CB61C070052E9FD /* Views */,
 				2E718F002CA16315001E53EB /* Assets.xcassets */,
 				2E718F022CA16315001E53EB /* Preview Content */,
@@ -76,30 +198,15 @@
 		2E8A765B2CB61C070052E9FD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				033BDD8F2CBCD20400BBE35B /* Result */,
+				033BDD8C2CBCCAD400BBE35B /* Profile */,
+				033BDD892CBCCAC400BBE35B /* Log */,
+				033BDD842CBCCA0A00BBE35B /* Main */,
+				033DA86C2CB91083007BEA53 /* Items */,
+				03C7D70C2CB669FE00944A26 /* Camera */,
 				2E8A76602CB61C380052E9FD /* OnboardingChat */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		2E8A765C2CB61C100052E9FD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		2E8A765D2CB61C160052E9FD /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		2E8A765E2CB61C1F0052E9FD /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		2E8A76602CB61C380052E9FD /* OnboardingChat */ = {
@@ -180,8 +287,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C7D70B2CB6697D00944A26 /* FaceTrackingViewModel.swift in Sources */,
+				033BDD862CBCCA1700BBE35B /* MainView.swift in Sources */,
+				033BDD942CBCD7E800BBE35B /* ResultModel.swift in Sources */,
+				03C7D7142CB66AA900944A26 /* CardStackView.swift in Sources */,
+				033BDD922CBCD7B900BBE35B /* AcneSeverityLevel.swift in Sources */,
+				033BDDCF2CBCDEA100BBE35B /* ImageBase64Converter.swift in Sources */,
 				2E718EFF2CA16313001E53EB /* ContentView.swift in Sources */,
+				03C7D7102CB66A7300944A26 /* CapturedImagesView.swift in Sources */,
+				03C7D7192CB66AD300944A26 /* acneObj15000.mlmodel in Sources */,
+				033BDD962CBCDB7000BBE35B /* ResultViewModel.swift in Sources */,
+				03C7D71A2CB66AD300944A26 /* acneObj7480.mlmodel in Sources */,
+				033DA85E2CB6845B007BEA53 /* acneObj28200.mlmodel in Sources */,
+				033BDD8E2CBCCADD00BBE35B /* ProfileView.swift in Sources */,
+				03C7D71B2CB66AD300944A26 /* acneObj28100.mlpackage in Sources */,
 				2E8A76622CB61C510052E9FD /* OnboardingChatView.swift in Sources */,
+				03C7D70E2CB66A1900944A26 /* CameraScanView.swift in Sources */,
+				03C7D7122CB66A9300944A26 /* ResultView.swift in Sources */,
+				033DA86E2CB91097007BEA53 /* SeverityIndicator.swift in Sources */,
+				033BDD8B2CBCCACD00BBE35B /* LogView.swift in Sources */,
 				2E718EFD2CA16313001E53EB /* SkinalyzeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,9 +440,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Skinalyze/Preview Content\"";
-				DEVELOPMENT_TEAM = C59QF2W8P6;
+				DEVELOPMENT_TEAM = 4JD2N84N6P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "---";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,9 +470,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Skinalyze/Preview Content\"";
-				DEVELOPMENT_TEAM = C59QF2W8P6;
+				DEVELOPMENT_TEAM = 4JD2N84N6P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "---";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
